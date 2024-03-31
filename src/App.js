@@ -1,11 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './Header.js';
 import Footer from './Footer.js';
+import Hero from './Hero.js';
 
 function App() {
   return (
-    <div className="App">
+    <div style={{backgroundColor: "#3b0a04"}}>
+      <Hero />
+      <div className="App">
+      {/*
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,9 +22,11 @@ function App() {
         >
           Learn React
         </a>
+        </header>
+  */}
         <Header />
         <Footer />
-      </header>
+      </div>
     </div>
   );
 }
