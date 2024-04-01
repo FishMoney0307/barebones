@@ -2,11 +2,12 @@ import './App.css';
 import Header from './Header.js';
 import Footer from './Footer.js';
 import Hero from './Hero.js';
+import Body from './Body.js';
 
 function App() {
   return (
     <div style={{backgroundColor: "#3b0a04"}}>
-      <Hero />
+      <Hero/>
       <div className="App">
       {/*
       <header className="App-header">
@@ -24,6 +25,7 @@ function App() {
         </a>
         </header>
   */}
+        <Body />
         <Header />
         <Footer />
       </div>
