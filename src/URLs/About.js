@@ -1,21 +1,20 @@
 import React from 'react'
 import './About.css';
+import './Home.css';
+import Hero from '../Hero.js';
+import Credits from './Credits.js';
+import Footer from '../Footer.js';
 
 const About = () => {
   return (
-    <div className="container">
-        <div>
-            <h1>Frontend</h1><br />
-            <p>Desc</p><br />
-        </div>
-        <div>
-            <h1>HTML</h1>
-            <p>Desc</p>
-        </div>
-        <div>
-
-        </div>
+    <div className="background">
+      <Hero />
+      <div className="Home">
+        <Credits />
+        <Footer />
+      </div>
     </div>
+
   )
 }
 

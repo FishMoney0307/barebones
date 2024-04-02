@@ -6,9 +6,9 @@ import Body from '../Body.js';
 
 const Home = () => {
   return (
-    <div style={{backgroundColor: "#3b0a04"}}>
+    <div className="background">
       <Hero/>
-      <div className="App">
+      <div className="Home">
         <Body />
         <Footer />
       </div>
