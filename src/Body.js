@@ -1,15 +1,17 @@
 import React from 'react';
 import './Body.css';
+import Submit from './Home/Submit.js';
+import Description from './Home/Description.js';
 
 const Body = () => {
   return (
     <body>
         <div className="bigContainer">
+            <div>
             <div className="smallContainer">
-                <h3>Hola</h3>
+                <div><Description /></div>
+                <div><Submit /></div>
             </div>
-            <div className="smallContainer">
-                <h3>Hiya</h3>
             </div>
         </div>
     </body>
