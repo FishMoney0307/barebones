@@ -1,21 +1,19 @@
 import React from 'react'
-import './About.css';
 import './Home.css';
-import Hero from '../Hero.js';
-import Credits from './Credits.js';
 import Footer from '../Footer.js';
+import Hero from '../Hero.js';
+import Body from './Body.js';
 
-const About = () => {
+const Home = () => {
   return (
     <div className="background">
-      <Hero />
+      <Hero/>
       <div className="Home">
-        <Credits />
+        <Body />
         <Footer />
       </div>
     </div>
-
   )
 }
 
-export default About
+export default Home

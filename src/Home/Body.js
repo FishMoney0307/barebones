@@ -1,7 +1,7 @@
 import React from 'react';
 import './Body.css';
-import Submit from './Home/Submit.js';
-import Description from './Home/Description.js';
+import Submit from './Submit.js';
+import Description from './Description.js';
 
 const Body = () => {
   return (

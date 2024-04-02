@@ -1,8 +1,8 @@
 import './App.css';
 import React from "react";
-import Home from './URLs/Home.js'
-import About from './URLs/About.js';
-import Contact from './URLs/Contact.js';
+import Home from './Home/Home.js'
+import About from './About/About.js';
+import Contact from './Contact/Contact.js';
 import Navbar from './Navbar.js';
 
 import ReactDOM from "react-dom/client";
