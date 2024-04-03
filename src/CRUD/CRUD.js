@@ -6,13 +6,12 @@ import '../Home/DBList.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function CRUD() {
-    let history = useNavigate();
+    /* yoinked and edited from geeks for geeks
+        feel like i should prob credit my sources 
+        https://www.geeksforgeeks.org/how-to-do-crud-operations-in-reactjs/*/
 
-    function setID(id, title, priority) {
-        localStorage.setItem("id", id);
-        localStorage.setItem("title", title);
-        localStorage.setItem("priority", priority);
-    }
+
+    let history = useNavigate();
 
     function deleted(id) {
         let i = array
@@ -44,7 +43,6 @@ function CRUD() {
                                     variant="danger">Delete</Button>
                             </div>
                         </div>
-
                     )
                 })}
             </div>

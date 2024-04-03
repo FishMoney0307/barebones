@@ -17,7 +17,7 @@ const Body = () => {
         </div>
         <div>
           <div className="smallContainer" style={{marginTop: "50px", marginBottom: "50px"}}>
-            <DBList />
+            
           </div>
           <div className="smallContainer" style={{marginTop: "50px", marginBottom: "50px"}}>
             <CRUD />
